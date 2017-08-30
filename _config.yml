@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Basil Brunner"
+title_separator          : "|"
+name                     : "Basil Brunner"
+description              : ""
+url                      : "https://myniva.ch"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "myniva/myniva.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "myniva"
 facebook:
   username               :
   app_id                 :
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Basil Brunner"
+  avatar           : "/assets/images/me.png"
+  bio              :
+  location         : "Switzerland"
+  email            : "myniva@mailbox.org"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,19 +89,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "myniva"
   gitlab           :
   google_plus      :
-  keybase          :
+  keybase          : "myniva"
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "basilbrunner"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "270357/myniva"
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "myniva"
   vine             :
   weibo            :
   xing             :
@@ -136,8 +136,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -172,7 +170,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
